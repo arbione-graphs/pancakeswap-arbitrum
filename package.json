@@ -12,6 +12,8 @@
   "scripts": {
     "codegen": "turbo run codegen",
     "build": "turbo run build",
+    "create-local": "graph create arbitrum/pancakeswap-v2 --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy arbitrum/pancakeswap-v2 --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "format:check": "prettier --check '*/**/*.{js,ts}'",
     "format:write": "prettier --write '*/**/*.{js,ts}'",
     "lint": "eslint '*/**/*.{js,ts}'",
@@ -20,8 +22,8 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "@graphprotocol/graph-cli": "^0.21.0",
-    "@graphprotocol/graph-ts": "^0.20.0",
+    "@graphprotocol/graph-cli": "^0.64.1",
+    "@graphprotocol/graph-ts": "^0.32.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
     "eslint": "^7.32.0",

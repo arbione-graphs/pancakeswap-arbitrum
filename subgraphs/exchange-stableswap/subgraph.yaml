@@ -9,7 +9,7 @@ graft:
 dataSources:
   - kind: ethereum/contract
     name: StableSwapFactory
-    network: bsc
+    network: arbitrum-one
     source:
       address: '0x25a55f9f2279A54951133D503490342b50E5cd15'
       abi: StableSwapFactory
@@ -42,7 +42,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: StableSwapPair
-    network: bsc
+    network: arbitrum-one
     source:
       abi: StableSwapPair
     mapping:
@@ -75,7 +75,7 @@ templates:
           handler: handleTokenExchange
   - kind: ethereum/contract
     name: StableSwapPairV2
-    network: bsc
+    network: arbitrum-one
     source:
       abi: StableSwapPairV2
     mapping:
@@ -108,7 +108,7 @@ templates:
           handler: handleTokenExchange
   - kind: ethereum/contract
     name: StableSwap3PairV2
-    network: bsc
+    network: arbitrum-one
     source:
       abi: StableSwap3PairV2
     mapping:
@@ -141,7 +141,7 @@ templates:
           handler: handleTriTokenExchange
   - kind: ethereum/contract
     name: ERC20
-    network: bsc
+    network: arbitrum-one
     source:
       abi: ERC20
     mapping:

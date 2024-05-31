@@ -3,7 +3,7 @@ import { BigDecimal, Address } from "@graphprotocol/graph-ts/index";
 import { Pair, Token, Bundle } from "../generated/schema";
 import { ZERO_BD, factoryContract, ADDRESS_ZERO, ONE_BD, CAKE_ADDRESS } from "./utils";
 
-let WBNB_ADDRESS = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c";
+let WBNB_ADDRESS = "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1";
 let BUSD_WBNB_PAIR = "0x58f876857a02d6762e0101bb5c46a8c1ed44dc16"; // created block 589414
 let USDT_WBNB_PAIR = "0x16b9a82891338f9ba80e2d6970fdda79d1eb0dae"; // created block 648115
 
@@ -33,7 +33,7 @@ export function getBnbPriceInUSD(): BigDecimal {
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
   CAKE_ADDRESS,
-  "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", // WBNB
+  "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", // WBNB
   "0xe9e7cea3dedca5984780bafc599bd69add087d56", // BUSD
   "0x55d398326f99059ff775485246999027b3197955", // USDT
   "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", // USDC

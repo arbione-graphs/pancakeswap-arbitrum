@@ -105,7 +105,7 @@ export function getBnbPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", // WBNB
+  "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", // WBNB
   "0xe9e7cea3dedca5984780bafc599bd69add087d56", // BUSD
   "0x55d398326f99059ff775485246999027b3197955", // USDT
   "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", // USDC
