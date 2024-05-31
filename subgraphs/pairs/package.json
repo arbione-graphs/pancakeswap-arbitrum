@@ -8,6 +8,8 @@
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
+    "create-local": "graph create pancakeswap-v2-arbitrumpairs --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy pancakeswap-v2-arbitrumpairs subgraph.yaml --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ pancakeswap/pairs subgraph.yaml"
   }
 }
