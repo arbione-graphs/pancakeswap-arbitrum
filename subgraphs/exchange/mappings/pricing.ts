@@ -34,11 +34,11 @@ export function getBnbPriceInUSD(): BigDecimal {
 let WHITELIST: string[] = [
   "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", // WBNB
   "0xe9e7cea3dedca5984780bafc599bd69add087d56", // BUSD
-  "0x55d398326f99059ff775485246999027b3197955", // USDT
-  "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", // USDC
+  "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9", // USDT
+  "0xaf88d065e77c8cC2239327C5EDb3A432268e5831", // USDC
   "0x23396cf899ca06c4472205fc903bdb4de249d6fc", // UST
   "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c", // BTCB
-  "0x2170ed0880ac9a755fd29b2688956bd959f933f8", // WETH
+  "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", // WETH
 ];
 
 // minimum liquidity for price to get tracked
